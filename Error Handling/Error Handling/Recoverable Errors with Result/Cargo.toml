@@ -1,0 +1,4 @@
+﻿[package]
+name = "recoverable_errors_with_result"
+version = "0.1.0"
+edition = "2021"

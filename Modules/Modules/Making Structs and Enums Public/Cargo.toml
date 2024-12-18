@@ -1,0 +1,4 @@
+﻿[package]
+name = "making_structs_and_enums_public"
+version = "0.1.0"
+edition = "2021"

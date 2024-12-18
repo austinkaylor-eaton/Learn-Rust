@@ -1,0 +1,4 @@
+﻿[package]
+name = "propagating_errors_in_main"
+version = "0.1.0"
+edition = "2021"
