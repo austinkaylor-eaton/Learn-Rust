@@ -1,8 +1,10 @@
-﻿fn main() {
+﻿extern crate core;
+
+fn main() {
     let mut sum = 0;
 
-    for /* TODO */ {
-        /* TODO */
+    for number in 1..=100 {
+        sum += number;
     }
 
     println!("Sum is {}", sum)

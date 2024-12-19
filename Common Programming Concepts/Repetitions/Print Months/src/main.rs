@@ -4,5 +4,8 @@
         "July", "August", "September",
         "October", "November", "December"];
 
-    /* TODO */
+    for month in months.iter() {
+        println!("{}", month);
+        
+    }
 }
