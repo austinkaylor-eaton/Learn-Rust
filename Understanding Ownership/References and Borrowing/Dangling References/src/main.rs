@@ -3,8 +3,8 @@
 }
 
 // !!! ERROR: returning reference for a local variable
-fn dangle() -> &String {
+fn dangle() -> String {
     let s = String::from("hello");
 
-    &s
+    s
 }
