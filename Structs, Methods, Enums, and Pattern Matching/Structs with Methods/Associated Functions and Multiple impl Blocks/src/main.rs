@@ -6,10 +6,17 @@ struct Rectangle {
 
 impl Rectangle {
     // Associated function
-    fn square(size: u32) -> Rectangle {
+    fn create_square(size: u32) -> Rectangle {
         Rectangle {
             width: size,
             height: size,
+        }
+    }
+    
+    fn create_rectangle(width: u32, height: u32) -> Rectangle {
+        Rectangle {
+            width,
+            height,
         }
     }
 }
@@ -30,7 +37,7 @@ impl Rectangle {
 
 fn main() {
                           // Calling an associated function
-    let rect1 = Rectangle::square(50);
+    let rect1 = Rectangle::create_square(50);
     let rect2 = Rectangle {
         width: 10,
         height: 40,
