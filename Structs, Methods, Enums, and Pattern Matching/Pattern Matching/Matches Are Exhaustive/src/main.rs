@@ -2,9 +2,13 @@
     // !!! ERROR: Match must be exhaustive
     match x {
         Some(i) => Some(i + 1),
+        None => None,
     }
 }
 
 fn main() {
-    // put you code here to launch it
+    let five = Some(5);
+    let six = plus_one(five);
+    let none = plus_one(None);
+    println!("{:?}, {:?}", six, none);
 }
