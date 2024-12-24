@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 793
-        length: 31
+        length: 19
         placeholder_text: "// TODO: Complete this function"
         initial_state:
           length: 31
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: fY7T+2sg9Oby+ydUTyMJ4B7pegnHq2YsRtrQwguWNZ4=
         selected: false
-        status: Unchecked
-      - offset: 834
-        length: 108
+        status: Solved
+      - offset: 822
+        length: 128
         placeholder_text: |-
           // TODO: Make ParseClimateError suitable for propagating errors in main.
           // See hints if you are in trouble.
@@ -25,9 +25,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: gYmmppv7WlMHq3kKxYBU5lAp3kChakE2QaD+/zN200nhnj32DWTrH9f4F4mUAHat
         selected: false
-        status: Unchecked
-      - offset: 1439
-        length: 33
+        status: Solved
+      - offset: 1447
+        length: 158
         placeholder_text: /* Complete the implementation */
         initial_state:
           length: 33
@@ -35,29 +35,29 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: qTDgByRTGA1GkjrJ60jHVuId4MTmCXyDgK5sD0fRR0H/jDupSoQ5WmfK1RsmI8tVlYhFFSz20LQqCBkRYYFsLWZrtr5QyuAUSwQLbR5tG6WfexKuZ7/HgpjfhK5juA4xh4+gEXPM496D6Y3/M4h5GxC8jcOFy8vBZzVY8/l3352O5LLkNBdTkCCtHsPJ7hr3Lry0heVXa0tZNIxODTPpzwrGrE/3pIe7sP4KN1gExOA=
         selected: false
-        status: Unchecked
-      - offset: 2067
-        length: 21
+        status: Solved
+      - offset: 2200
+        length: 0
         placeholder_text: /* Add a condition */
         initial_state:
           length: 21
           offset: 2067
         initialized_from_dependency: false
         encrypted_possible_answer: 9Er4EI09/w2eAowgiqoaaGhAcor++UBRFioZU2M7Puk=
-        selected: false
-        status: Unchecked
-      - offset: 2136
-        length: 47
+        selected: true
+        status: Solved
+      - offset: 2248
+        length: 43
         placeholder_text: /* Return an error if the city name is empty */
         initial_state:
           length: 47
           offset: 2136
         initialized_from_dependency: false
         encrypted_possible_answer: OV8t/vMQJ6wHQMnoUHiiAbn6sVVvCKXAznmp/ok1nHqY8WC2xG90zox+m+ZQlp/TAQqvDznbIySsvHLVuONIRNGL6fEucVLIZa6uzzK1AQA=
-        selected: false
-        status: Unchecked
-      - offset: 2196
-        length: 44
+        selected: true
+        status: Solved
+      - offset: 2304
+        length: 48
         placeholder_text: /* Return an error if the string is empty */
         initial_state:
           length: 44
@@ -65,7 +65,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: DluMSxQYt6exEnDTMXzydeDOtK1FxQLgI9o3ymxwFP7sTRFnCTipSC0XLPdscaDDw+ZodHNQTajfGlUZ9mqjXIakN6mc8gCPp5gAhegYRME=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -77,5 +77,8 @@ files:
     visible: true
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Error+Handling+/+Errors+Primer+/+Advanced+Errors+2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 24 Dec 2024 04:14:26 UTC"
 record: -1
