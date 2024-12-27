@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 25
+        length: 4
         placeholder_text: /* Something goes here */
         initial_state:
           length: 25
@@ -13,7 +13,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Tf9c8oedbSvEpZfxODPsIA==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -22,5 +22,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Generic+Data+Types+/+Generics+in+Vec
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 27 Dec 2024 15:21:40 UTC"
 record: -1

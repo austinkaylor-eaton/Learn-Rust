@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 18
-        length: 25
+        length: 3
         placeholder_text: /* Something goes here */
         initial_state:
           length: 25
@@ -13,29 +13,29 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: TtHqopb3p2QJdVXzih7eSQ==
         selected: false
-        status: Unchecked
-      - offset: 61
-        length: 3
+        status: Solved
+      - offset: 39
+        length: 1
         placeholder_text: u32
         initial_state:
           length: 3
           offset: 61
         initialized_from_dependency: false
         encrypted_possible_answer: v3ZkPzTVOIMmYksW8RSPlA==
-        selected: false
-        status: Unchecked
-      - offset: 73
-        length: 25
+        selected: true
+        status: Solved
+      - offset: 49
+        length: 3
         placeholder_text: /* Something goes here */
         initial_state:
           length: 25
           offset: 73
         initialized_from_dependency: false
         encrypted_possible_answer: TtHqopb3p2QJdVXzih7eSQ==
-        selected: false
-        status: Unchecked
-      - offset: 106
-        length: 25
+        selected: true
+        status: Solved
+      - offset: 60
+        length: 3
         placeholder_text: /* Something goes here */
         initial_state:
           length: 25
@@ -43,17 +43,17 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: TtHqopb3p2QJdVXzih7eSQ==
         selected: false
-        status: Unchecked
-      - offset: 156
-        length: 3
+        status: Solved
+      - offset: 88
+        length: 1
         placeholder_text: u32
         initial_state:
           length: 3
           offset: 156
         initialized_from_dependency: false
         encrypted_possible_answer: v3ZkPzTVOIMmYksW8RSPlA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -65,5 +65,8 @@ files:
     visible: true
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Generic+Data+Types+/+Generics+in+Structs
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 27 Dec 2024 15:24:09 UTC"
 record: -1
