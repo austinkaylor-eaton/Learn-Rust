@@ -32,4 +32,20 @@ mod tests {
             ]
         );
     }
+    
+    #[test]
+    fn test_no_shoes_in_my_size() {
+        let shoes = vec![
+            Shoe { size: 10, style: String::from("sneaker") },
+            Shoe { size: 13, style: String::from("sandal") },
+            Shoe { size: 10, style: String::from("boot") },
+        ];
+
+        let in_my_size = shoes_in_my_size(shoes, 11);
+
+        assert_eq!(
+            in_my_size,
+            vec![]
+        );
+    }
 }

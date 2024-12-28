@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 416
-        length: 10
+        length: 176
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: M05057KV750T6B6bdS1kUNMJjMnFsG98rkJPvZ7xARWRicyXR0cDbR/ZXKtwdFn3rZRnXAJA4UCfX9iOk7zt9g==
         selected: false
-        status: Unchecked
-      - offset: 788
-        length: 10
+        status: Solved
+      - offset: 954
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -23,7 +23,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: epFU1+4gUwvnnbtstNqabJNi3JkgS1HoH98EA/Xa3gpGb+36sev8qPXVWLLMevHmekkIy3ZWhrH1tE5ufENp4jBEnjvYrXRCun5uFXI4MB1IpSvk40iSkWWZPlVwmJH9PaTBwaVp4sKKUVAAHiTwSqvuj3DOyJB4mkjQJXvuxFIEdXQz9IkQaaS/0h00fvq8
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -35,5 +35,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Iterators+/+Count+Progress
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 28 Dec 2024 19:13:20 UTC"
 record: -1
