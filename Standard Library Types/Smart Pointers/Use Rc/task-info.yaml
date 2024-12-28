@@ -5,7 +5,7 @@ files:
     visible: true
     placeholders:
       - offset: 1240
-        length: 36
+        length: 15
         placeholder_text: "/* TODO: Fix this */ Rc::new(Sun {})"
         initial_state:
           length: 36
@@ -13,9 +13,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1MfOzx4Aj06hZhR9F/rGgg==
         selected: false
-        status: Unchecked
-      - offset: 1424
-        length: 36
+        status: Solved
+      - offset: 1391
+        length: 15
         placeholder_text: "/* TODO: Fix this */ Rc::new(Sun {})"
         initial_state:
           length: 36
@@ -23,19 +23,19 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1MfOzx4Aj06hZhR9F/rGgg==
         selected: false
-        status: Unchecked
-      - offset: 1610
-        length: 36
+        status: Solved
+      - offset: 1544
+        length: 15
         placeholder_text: "/* TODO: Fix this */ Rc::new(Sun {})"
         initial_state:
           length: 36
           offset: 1610
         initialized_from_dependency: false
         encrypted_possible_answer: 1MfOzx4Aj06hZhR9F/rGgg==
-        selected: false
-        status: Unchecked
-      - offset: 2284
-        length: 40
+        selected: true
+        status: Solved
+      - offset: 2197
+        length: 12
         placeholder_text: "/* TODO: What else should be dropped? */"
         initial_state:
           length: 40
@@ -43,9 +43,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: tzeLXV+CNK3xPBHGN9mRUQ==
         selected: false
-        status: Unchecked
-      - offset: 2408
-        length: 40
+        status: Solved
+      - offset: 2293
+        length: 12
         placeholder_text: "/* TODO: What else should be dropped? */"
         initial_state:
           length: 40
@@ -53,9 +53,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 79ICM3vGHUF6roVDkIKDdg==
         selected: false
-        status: Unchecked
-      - offset: 2532
-        length: 40
+        status: Solved
+      - offset: 2389
+        length: 14
         placeholder_text: "/* TODO: What else should be dropped? */"
         initial_state:
           length: 40
@@ -63,7 +63,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: L3Z8XQSJqKeJERDxQ8+0HQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -72,5 +72,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Smart+Pointers+/+Use+Rc
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 28 Dec 2024 19:48:20 UTC"
 record: -1

@@ -14,7 +14,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 35
+        length: 36
         placeholder_text: /* You may need to use something */
         initial_state:
           length: 35
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: LzhpDCypNNO04yX6RjT017fVgGy8zxA/2cY/2E0OXSc1LllVHFqvn6l6rB8IYPZM
         selected: false
-        status: Unchecked
-      - offset: 81
+        status: Solved
+      - offset: 82
         length: 12
         placeholder_text: '&Vec<String>'
         initial_state:
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
         selected: false
-        status: Unchecked
-      - offset: 142
+        status: Solved
+      - offset: 143
         length: 12
         placeholder_text: '&Vec<String>'
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
         selected: false
-        status: Unchecked
-      - offset: 241
+        status: Solved
+      - offset: 242
         length: 41
         placeholder_text: /* `push` requires a mutable reference */
         initial_state:
@@ -52,13 +52,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 4Ty4pr2uOIupGI9An5n+vg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/engine.rs
     visible: true
     placeholders:
       - offset: 27
-        length: 35
+        length: 102
         placeholder_text: /* You may need to use something */
         initial_state:
           length: 35
@@ -66,8 +66,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: LzhpDCypNNO04yX6RjT017fVgGy8zxA/2cY/2E0OXSc1LllVHFqvn6l6rB8IYPZM
         selected: false
-        status: Unchecked
-      - offset: 93
+        status: Solved
+      - offset: 160
         length: 11
         placeholder_text: Vec<String>
         initial_state:
@@ -76,8 +76,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
         selected: false
-        status: Unchecked
-      - offset: 209
+        status: Solved
+      - offset: 276
         length: 6
         placeholder_text: "vec![]"
         initial_state:
@@ -86,8 +86,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 3i9/UUD0r2jY/wiI0cOlrrdd8Sj6H3eNobxcboMu+mI=
         selected: false
-        status: Unchecked
-      - offset: 350
+        status: Solved
+      - offset: 417
         length: 9
         placeholder_text: '&self.log'
         initial_state:
@@ -96,8 +96,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Rb4ARw7HL3Eb/LEkQhgUOndEaM5xCBRSkE/+MFc0xZY=
         selected: false
-        status: Unchecked
-      - offset: 502
+        status: Solved
+      - offset: 569
         length: 9
         placeholder_text: '&self.log'
         initial_state:
@@ -106,11 +106,14 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: XFaxyX8GXJz6VGGOuaX656kt2wdzGHkriR1JMD2pLlY=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Smart+Pointers+/+Workers+in+the+Engine
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 28 Dec 2024 19:59:22 UTC"
 record: -1

@@ -8,16 +8,16 @@ files:
     visible: true
     placeholders:
       - offset: 60
-        length: 12
+        length: 4
         placeholder_text: '&''a mut Lamp'
         initial_state:
           length: 12
           offset: 60
         initialized_from_dependency: false
         encrypted_possible_answer: 1pR33ObwPM9F3p+fEd9GGA==
-        selected: false
-        status: Unchecked
-      - offset: 121
+        selected: true
+        status: Solved
+      - offset: 109
         length: 12
         placeholder_text: '&''a mut Lamp'
         initial_state:
@@ -26,8 +26,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1pR33ObwPM9F3p+fEd9GGA==
         selected: false
-        status: Unchecked
-      - offset: 195
+        status: Solved
+      - offset: 183
         length: 9
         placeholder_text: '&mut self'
         initial_state:
@@ -36,7 +36,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: w85YO4eyFlsn9P9QFTCnGQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/lib.rs
     visible: true
@@ -51,7 +51,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 35
+        length: 30
         placeholder_text: /* You may need to use something */
         initial_state:
           length: 35
@@ -59,8 +59,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: GHuD14OfreD59A/zK3vZdJNulbr0JVAoI6WRJD+jwQg=
         selected: false
-        status: Unchecked
-      - offset: 88
+        status: Solved
+      - offset: 83
         length: 4
         placeholder_text: bool
         initial_state:
@@ -69,8 +69,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wSyLUkuNUgRerEqlLiNH4A==
         selected: false
-        status: Unchecked
-      - offset: 150
+        status: Solved
+      - offset: 145
         length: 7
         placeholder_text: self.on
         initial_state:
@@ -79,8 +79,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: kx0UeyZ3RCBORHZMV70p7Q==
         selected: false
-        status: Unchecked
-      - offset: 185
+        status: Solved
+      - offset: 180
         length: 9
         placeholder_text: '&mut self'
         initial_state:
@@ -89,8 +89,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: w85YO4eyFlsn9P9QFTCnGQ==
         selected: false
-        status: Unchecked
-      - offset: 206
+        status: Solved
+      - offset: 201
         length: 14
         placeholder_text: self.on = true
         initial_state:
@@ -99,8 +99,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ptSeuUfIWEs1O2Xh87GG0+fUNnbx2WIJcin+uvlzzlQ=
         selected: false
-        status: Unchecked
-      - offset: 249
+        status: Solved
+      - offset: 244
         length: 9
         placeholder_text: '&mut self'
         initial_state:
@@ -109,8 +109,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: w85YO4eyFlsn9P9QFTCnGQ==
         selected: false
-        status: Unchecked
-      - offset: 270
+        status: Solved
+      - offset: 265
         length: 15
         placeholder_text: self.on = false
         initial_state:
@@ -119,8 +119,11 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: D5l5LDYc1rm7rD+A+J2gQHXtsizXre97YoXL/V9G2JU=
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Smart+Pointers+/+Switch+the+Lamp
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 28 Dec 2024 19:58:38 UTC"
 record: -1
