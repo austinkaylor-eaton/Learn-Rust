@@ -5,17 +5,17 @@ files:
     visible: true
     placeholders:
       - offset: 208
-        length: 26
+        length: 34
         placeholder_text: /* Something could here */
         initial_state:
           length: 26
           offset: 208
         initialized_from_dependency: false
         encrypted_possible_answer: pEKExvH7khitfBaujtH8UA==
-        selected: false
-        status: Unchecked
-      - offset: 249
-        length: 4
+        selected: true
+        status: Solved
+      - offset: 257
+        length: 0
         placeholder_text: 'let '
         initial_state:
           length: 4
@@ -23,7 +23,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: ft3/KDXagmI+TWDbl9vbuw==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -32,5 +32,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Lifetimes+/+Unify+Lifetimes
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 28 Dec 2024 04:34:27 UTC"
 record: -1
