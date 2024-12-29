@@ -30,13 +30,19 @@ impl FromStr for Person {
     type Err = ParsePersonError;
     fn from_str(s: &str) -> Result<Person, Self::Err> {
         if s.len() == 0 {
-            /* Return am appropriate error */
+            return Err(ParsePersonError::Empty);
         }
         let parts: Vec<&str> = s.split(',').collect();
-        /* Add a condition for the cases when there is a wrong number of fields and return an appropriate error */
-        /* Extract the first element from the split operation and use it as the name. Return an appropriate error if the field is empty. */
-        /* Extract the other element from the split and parse it as age. Return an appropriate error if something goes wrong. */
+        if (parts.len() < 2) | (parts.len() > 2) {
+            return Err(ParsePersonError::BadLen);
+        }
+        let name = if parts[0] != "" {
+            String::from(parts[0])
+        } else {
+            return Err(ParsePersonError::NoName);
+        };
+        let age = parts[1].parse::<usize>()?;
 
-        /* Return a Result of a Person object if everything goes well. */
+        Ok(Person { name, age })
     }
 }
