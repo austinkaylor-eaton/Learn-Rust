@@ -5,5 +5,5 @@
 }
 
 fn main() {
-    my_macro/*call the macro here*/();
+    my_macro!();
 }

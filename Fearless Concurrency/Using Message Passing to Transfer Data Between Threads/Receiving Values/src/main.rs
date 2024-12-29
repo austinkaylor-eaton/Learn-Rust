@@ -6,6 +6,7 @@ fn main() {
 
     thread::spawn(move || {
         let val = String::from("hi");
+        println!("Sending: {}", val);
         tx.send(val).unwrap();
     });
 

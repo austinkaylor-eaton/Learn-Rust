@@ -1,4 +1,11 @@
-﻿/*declare your macro here*/
+﻿macro_rules! my_macro {
+    () => {
+        "Hello world!"
+    };
+    ($val:expr) => {
+        concat!("Hello ", $val)
+    };
+}
 
 fn main() {
     if my_macro!("world!") != "Hello world!" {

@@ -5,37 +5,37 @@ files:
     visible: true
     placeholders:
       - offset: 231
-        length: 27
+        length: 22
         placeholder_text: "/* TODO: Send value here */"
         initial_state:
           length: 27
           offset: 231
         initialized_from_dependency: false
         encrypted_possible_answer: vpOPM8+j/AqPoKrrufHyNQLZ5ExDLhoNEStidLYj/vM=
-        selected: false
-        status: Unchecked
-      - offset: 410
-        length: 37
+        selected: true
+        status: Solved
+      - offset: 405
+        length: 10
         placeholder_text: "/* TODO: pass the transmitting end */"
         initial_state:
           length: 37
           offset: 410
         initialized_from_dependency: false
         encrypted_possible_answer: 7Afbe8EM/cR0XiTA+sON2g==
-        selected: false
-        status: Unchecked
-      - offset: 479
-        length: 37
+        selected: true
+        status: Solved
+      - offset: 447
+        length: 2
         placeholder_text: "/* TODO: pass the transmitting end */"
         initial_state:
           length: 37
           offset: 479
         initialized_from_dependency: false
         encrypted_possible_answer: 6pMn29IAMg6aeUn+UCYbXg==
-        selected: false
-        status: Unchecked
-      - offset: 613
-        length: 62
+        selected: true
+        status: Solved
+      - offset: 546
+        length: 2
         placeholder_text: /* What should you iterate over to receive all the numbers?
           */
         initial_state:
@@ -44,7 +44,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: OZQBHuEcTFC4h57EoSrXQg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -53,5 +53,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Fearless+Concurrency+/+Using+Message+Passing+to+Transfer+Data+Between+Threads+/+Sum+All+Numbers
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 29 Dec 2024 01:36:53 UTC"
 record: -1
